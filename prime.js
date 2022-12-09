@@ -1,6 +1,7 @@
 //prime
 
  let num=13;
+ function checkprime(n){
 let check=true;
 for(let i=2;i<num;i++)
 {
@@ -10,7 +11,9 @@ check =false;
 break;
 }
 }
-if(check==true)
+return check;
+}
+if(checkprime(num)==true)
 {
 console.log("It is Prime.");
 }
