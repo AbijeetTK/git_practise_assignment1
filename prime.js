@@ -10,7 +10,7 @@ check =false;
 break;
 }
 }
-if(check==false)
+if(check==true)
 {
 console.log("It is Prime.");
 }
